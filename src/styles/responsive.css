@@ -1,0 +1,21 @@
+@media only screen and (max-width: 800px) {
+    .note-body {
+        margin: 0;
+    }
+    .notes-list {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 15px 1px;
+    }
+    .note-item {
+        width: 250px;
+    }
+    .noteItem-title {
+        font-size: 18px;
+    }
+    .noteItem-date {
+        font-size: 14px;
+    }
+    .noteItem-body {
+        font-size: 16px;
+    }
+}

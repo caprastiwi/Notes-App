@@ -1,0 +1,68 @@
+input::placeholder, textarea::placeholder {
+    font-weight: bold;
+    color: red;
+}
+
+.note-input {
+    max-width: 700px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+    font-size: 20px;
+}
+
+.note-input input,
+.note-input textarea,
+.note-search input {
+    display: block;
+    width: 100%;
+    margin: 12px 0;
+    padding: 15px;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    border: 1px solid darkgrey;
+    border-radius: 10px;
+    color: white;
+    background-color: transparent;
+}
+
+.note-input h2 {
+    padding-bottom: 5px;
+}
+
+.noteInput-title {
+    font-weight: bold;
+}
+
+.noteInput-titleCharLimit {
+    padding-bottom: 15px;
+    font-size: 16px;
+    text-align: right;
+    color: darkgray;
+}
+
+.noteInput-body {
+    min-height: 200px;
+}
+
+.note-input button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+    border: 1px solid cyan;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.note-input button:hover {
+    color: #151515;
+    background-color: cyan;
+}
+
+.noteInput-btn {
+    padding: 10px 0 50px;
+}

@@ -1,0 +1,67 @@
+.note-item {
+    width: 315px;
+    display: flex;
+    border: 1px solid darkgrey;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-direction: column;
+    transition: 0.3s;
+}
+
+.note-item:hover {
+    border-color: cyan;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.noteItem-content {
+    padding: 20px 18px;
+    flex: 1;
+}
+
+.noteItem-title {
+    margin-bottom: 5px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.noteItem-date {
+    padding-bottom: 5px;
+    color: darkgrey;
+    border-bottom: 1px solid snow;
+}
+
+.noteItem-body {
+    padding: 15px 0 5px;
+}
+
+.noteItem-btn {
+    display: flex;
+}
+
+.noteItem-deleteBtn,
+.noteItem-archiveBtn {
+    width: 100%;
+    display: block;
+    padding: 10px 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    color: snow;
+    background-color: transparent;
+    border: 0;
+    border-top: 1px solid darkgrey;
+    cursor: pointer;
+}
+
+.noteItem-deleteBtn {
+    border-right: 1px solid darkgrey;
+}
+
+.noteItem-deleteBtn:hover {
+    color: red;
+}
+
+.noteItem-archiveBtn:hover {
+    color: yellow;
+}

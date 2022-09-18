@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: white;
+  background-color: #202124;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.icon {
+  padding-right: 5px;
+}
+
+.note-header {
+  display: flex;
+  padding: 4px 16px;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid gray;
+}
+
+.note-header h1 {
+  margin: 8px 0;
+  flex: 1;
+  color: white;
+}
+
+.note-body {
+  margin: 16px 100px;
+  padding: 12px;
+}
+
+.note-body h2 {
+  margin: 16px 0;
+  font-weight: normal;
+}
+
+.notes-list {
+  display: grid;
+  margin-bottom: 100px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+}
+
+.notesList-emptyMessage {
+  text-align: center;
+  color: darkgrey;
+  padding-bottom: 50px;
+}
+
+.note-footer {
+  display: flex;
+  padding: 30px 50px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2f2f2f;
+}
+
+.note-footer .footer-left h1 {
+  font-family: 'Caladea';
+  font-style: italic;
+}
+
+.note-footer .footer-left p {
+  font-size: 18px;
+  font-family: 'Gabriola';
+}
+
+.note-footer .footer-left span {
+  text-transform: uppercase;
+  color: cyan;
+}
+
+.footer-right .footer-icon {
+  padding: 0 5px;
+}
+
+.footer-right .footer-icon .social-icon {
+  font-size: 20px;
+  color: white;
+}
+
+.footer-icon .social-icon:hover {
+  font-size: 20px;
+  color: cyan;
+}
